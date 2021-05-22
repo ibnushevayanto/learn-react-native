@@ -21,7 +21,7 @@ const NumberContainer = props => {
 
 const styles = StyleSheet.create({
   choosenNumberContainer: {
-    padding: 30,
+    padding: 20,
     elevation: 8,
     marginTop: 8,
   },

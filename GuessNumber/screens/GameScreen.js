@@ -6,6 +6,7 @@ import {
   Text,
   StyleSheet,
   FlatList,
+  Dimensions,
 } from 'react-native';
 import NumberContainer from '../components/NumberContainer';
 import Card from '../components/Card';
@@ -31,6 +32,19 @@ const GameScreen = props => {
   const currentLow = useRef(1);
   const currentHigh = useRef(100);
   const {userChoice, onGameOver} = props;
+  const [ScreenHeight, setScreenHeight] = useState(
+    Dimensions.get('window').height,
+  );
+
+  useEffect(() => {
+    const heightAdjustHandler = () => {
+      setScreenHeight(Dimensions.get('window').height);
+    };
+    Dimensions.addEventListener('change', heightAdjustHandler);
+    return () => {
+      Dimensions.removeEventListener('change', heightAdjustHandler);
+    };
+  }, [ScreenHeight]);
 
   useEffect(() => {
     if (CurrentGuess === props.userChoice) {
@@ -73,8 +87,8 @@ const GameScreen = props => {
     </View>
   );
 
-  return (
-    <View style={DefaultStyles.screen}>
+  let content = (
+    <React.Fragment>
       <NumberContainer justTitle title="Opponent's Choose">
         {CurrentGuess}
       </NumberContainer>
@@ -90,6 +104,32 @@ const GameScreen = props => {
           <Icon name="plus" size={15} />
         </MainButton>
       </Card>
+    </React.Fragment>
+  );
+
+  if (ScreenHeight < 500) {
+    content = (
+      <View style={styles.containerLandscape}>
+        <MainButton
+          type="danger"
+          onClick={nextGuessHandler.bind(this, 'lower')}>
+          <Icon name="minus" size={15} />
+        </MainButton>
+        <NumberContainer justTitle title="Opponent's Choose">
+          {CurrentGuess}
+        </NumberContainer>
+        <MainButton
+          type="success"
+          onClick={nextGuessHandler.bind(this, 'greater')}>
+          <Icon name="plus" size={15} />
+        </MainButton>
+      </View>
+    );
+  }
+
+  return (
+    <View style={DefaultStyles.screen}>
+      {content}
 
       {/* <ScrollView
         style={{width: '100%'}}
@@ -111,13 +151,19 @@ const GameScreen = props => {
 
 const styles = StyleSheet.create({
   listItem: {
-    padding: 20,
+    padding: Dimensions.get('window').height / 24,
     borderWidth: 1,
     borderRadius: 5,
     borderColor: '#fff',
-    marginVertical: 10,
+    marginVertical: Dimensions.get('window').height / 34,
     flexDirection: 'row',
     justifyContent: 'space-between',
+  },
+  containerLandscape: {
+    width: '100%',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    flexDirection: 'row',
   },
 });
 

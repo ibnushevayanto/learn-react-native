@@ -8,7 +8,7 @@ const Card = props => {
 const styles = StyleSheet.create({
   card: {
     alignItems: 'center',
-    padding: 30,
+    padding: 8,
     elevation: 8,
   },
 });

@@ -15,4 +15,7 @@ export default StyleSheet.create({
     width: '100%',
     justifyContent: 'space-around',
   },
+  contentCenter: {
+    justifyContent: 'center',
+  },
 });
