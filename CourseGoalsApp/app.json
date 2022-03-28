@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "CourseGoalsApp",
+    "slug": "CourseGoalsApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "CourseGoalsApp"
+}
