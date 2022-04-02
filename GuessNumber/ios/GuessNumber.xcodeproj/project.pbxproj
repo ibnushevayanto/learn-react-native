@@ -11,27 +11,13 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C3E5A5EB43CF4023A64313F3 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68B56620705146E089445C16 /* NotoSans-Bold.ttf */; };
+		603C6140DA5FC6509D6EB4F2 /* libPods-GuessNumber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 038AF38A023232D5EA2CAD53 /* libPods-GuessNumber.a */; };
 		704A4FFAE80A48489668193F /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA72A5AC5BAE45FCA461DA23 /* NotoSans-BoldItalic.ttf */; };
-		DB9D724FDA2A44F1B631CD34 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BEFED68B0F34A63BA0DAA8A /* NotoSans-Italic.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		ACC99141FDE73493CB2322FA /* libPods-GuessNumber-GuessNumberTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC94166D0B5CC0FAA545369 /* libPods-GuessNumber-GuessNumberTests.a */; };
+		C3E5A5EB43CF4023A64313F3 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68B56620705146E089445C16 /* NotoSans-Bold.ttf */; };
 		C6068259CE714C32B5BD3A00 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA0CC716E20F47C6B54535B3 /* NotoSans-Regular.ttf */; };
-		9A07D028B98C4FC490CAF47D /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09F51C6586BA42E0AEA54523 /* AntDesign.ttf */; };
-		D65F0876917D430EB9E4EEDA /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FFB4FBFA1394966B17A8219 /* Entypo.ttf */; };
-		E772E180D33B45E8855CAC95 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0FCF6F827434870BF00A228 /* EvilIcons.ttf */; };
-		5CE66B5DDCFF4FE8B6D5FA85 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90F8DEC920D148E58AA8C165 /* Feather.ttf */; };
-		DB445DF7986645F1967C033A /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 544F48A21F8F4B4896577EDC /* FontAwesome.ttf */; };
-		6FA500296CE44E12A841FCEB /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 303F061039944A6D9E34D105 /* FontAwesome5_Brands.ttf */; };
-		A00885371F754AC6851BD088 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA0DEF3B47AF440981184177 /* FontAwesome5_Regular.ttf */; };
-		5803274EB7494BC18A6EA1E9 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F43184846347098101422E /* FontAwesome5_Solid.ttf */; };
-		CFB66BC871764D6C81515EE4 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A181BF9FF66044A6B6E4D65C /* Fontisto.ttf */; };
-		A720342A7AF64239BE0852C9 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91A4195DA5614904AFE4F6EB /* Foundation.ttf */; };
-		6922E270712B412CB16699BE /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 375131C1E7F54B078EE6C121 /* Ionicons.ttf */; };
-		94ED5817CDD74CD1B273D2F6 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3EAD683A592478A96642862 /* MaterialCommunityIcons.ttf */; };
-		4E1C87D06C7D42D2A51E0241 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6C3D6C56C9949C2BF618321 /* MaterialIcons.ttf */; };
-		F001F0A063CE4F31AA2F4F33 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A191BD5C3AD4DB7ADFAABD3 /* Octicons.ttf */; };
-		8FC22585C3EB40A898009C97 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B80913ADE240A3AB2FEC23 /* SimpleLineIcons.ttf */; };
-		62E5002AB41C44609C47F469 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ED51CB1D6C648B794F77236 /* Zocial.ttf */; };
+		DB9D724FDA2A44F1B631CD34 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BEFED68B0F34A63BA0DAA8A /* NotoSans-Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,34 +34,24 @@
 		00E356EE1AD99517003FC87E /* GuessNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* GuessNumberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessNumberTests.m; sourceTree = "<group>"; };
+		038AF38A023232D5EA2CAD53 /* libPods-GuessNumber.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GuessNumber.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BC94166D0B5CC0FAA545369 /* libPods-GuessNumber-GuessNumberTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GuessNumber-GuessNumberTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* GuessNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GuessNumber/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = GuessNumber/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GuessNumber/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GuessNumber/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GuessNumber/main.m; sourceTree = "<group>"; };
+		4FE8C5F983750AC93186195E /* Pods-GuessNumber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessNumber.debug.xcconfig"; path = "Target Support Files/Pods-GuessNumber/Pods-GuessNumber.debug.xcconfig"; sourceTree = "<group>"; };
+		615BD9142779E6883DAFA2A7 /* Pods-GuessNumber-GuessNumberTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessNumber-GuessNumberTests.debug.xcconfig"; path = "Target Support Files/Pods-GuessNumber-GuessNumberTests/Pods-GuessNumber-GuessNumberTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68B56620705146E089445C16 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSans-Bold.ttf"; path = "../src/assets/font/NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		7BEFED68B0F34A63BA0DAA8A /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSans-Italic.ttf"; path = "../src/assets/font/NotoSans-Italic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GuessNumber/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA372520A594A7985FEFAAAB /* Pods-GuessNumber-GuessNumberTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessNumber-GuessNumberTests.release.xcconfig"; path = "Target Support Files/Pods-GuessNumber-GuessNumberTests/Pods-GuessNumber-GuessNumberTests.release.xcconfig"; sourceTree = "<group>"; };
+		B96CDD47AD40049E3F765A1A /* Pods-GuessNumber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessNumber.release.xcconfig"; path = "Target Support Files/Pods-GuessNumber/Pods-GuessNumber.release.xcconfig"; sourceTree = "<group>"; };
+		EA0CC716E20F47C6B54535B3 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSans-Regular.ttf"; path = "../src/assets/font/NotoSans-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		68B56620705146E089445C16 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; name = "NotoSans-Bold.ttf"; path = "../src/assets/font/NotoSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FA72A5AC5BAE45FCA461DA23 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; name = "NotoSans-BoldItalic.ttf"; path = "../src/assets/font/NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7BEFED68B0F34A63BA0DAA8A /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; name = "NotoSans-Italic.ttf"; path = "../src/assets/font/NotoSans-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EA0CC716E20F47C6B54535B3 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; name = "NotoSans-Regular.ttf"; path = "../src/assets/font/NotoSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		09F51C6586BA42E0AEA54523 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0FFB4FBFA1394966B17A8219 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D0FCF6F827434870BF00A228 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		90F8DEC920D148E58AA8C165 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		544F48A21F8F4B4896577EDC /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		303F061039944A6D9E34D105 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		AA0DEF3B47AF440981184177 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		43F43184846347098101422E /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A181BF9FF66044A6B6E4D65C /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		91A4195DA5614904AFE4F6EB /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		375131C1E7F54B078EE6C121 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C3EAD683A592478A96642862 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E6C3D6C56C9949C2BF618321 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9A191BD5C3AD4DB7ADFAABD3 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		43B80913ADE240A3AB2FEC23 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5ED51CB1D6C648B794F77236 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FA72A5AC5BAE45FCA461DA23 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSans-BoldItalic.ttf"; path = "../src/assets/font/NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACC99141FDE73493CB2322FA /* libPods-GuessNumber-GuessNumberTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				603C6140DA5FC6509D6EB4F2 /* libPods-GuessNumber.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,8 +108,22 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				038AF38A023232D5EA2CAD53 /* libPods-GuessNumber.a */,
+				0BC94166D0B5CC0FAA545369 /* libPods-GuessNumber-GuessNumberTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		762B86817AD3487292559632 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68B56620705146E089445C16 /* NotoSans-Bold.ttf */,
+				FA72A5AC5BAE45FCA461DA23 /* NotoSans-BoldItalic.ttf */,
+				7BEFED68B0F34A63BA0DAA8A /* NotoSans-Italic.ttf */,
+				EA0CC716E20F47C6B54535B3 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -150,6 +142,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				762B86817AD3487292559632 /* Resources */,
+				8D068BE5CFCB16710EEA4ED6 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -165,33 +158,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		762B86817AD3487292559632 /* Resources */ = {
-			isa = "PBXGroup";
+		8D068BE5CFCB16710EEA4ED6 /* Pods */ = {
+			isa = PBXGroup;
 			children = (
-				68B56620705146E089445C16 /* NotoSans-Bold.ttf */,
-				FA72A5AC5BAE45FCA461DA23 /* NotoSans-BoldItalic.ttf */,
-				7BEFED68B0F34A63BA0DAA8A /* NotoSans-Italic.ttf */,
-				EA0CC716E20F47C6B54535B3 /* NotoSans-Regular.ttf */,
-				09F51C6586BA42E0AEA54523 /* AntDesign.ttf */,
-				0FFB4FBFA1394966B17A8219 /* Entypo.ttf */,
-				D0FCF6F827434870BF00A228 /* EvilIcons.ttf */,
-				90F8DEC920D148E58AA8C165 /* Feather.ttf */,
-				544F48A21F8F4B4896577EDC /* FontAwesome.ttf */,
-				303F061039944A6D9E34D105 /* FontAwesome5_Brands.ttf */,
-				AA0DEF3B47AF440981184177 /* FontAwesome5_Regular.ttf */,
-				43F43184846347098101422E /* FontAwesome5_Solid.ttf */,
-				A181BF9FF66044A6B6E4D65C /* Fontisto.ttf */,
-				91A4195DA5614904AFE4F6EB /* Foundation.ttf */,
-				375131C1E7F54B078EE6C121 /* Ionicons.ttf */,
-				C3EAD683A592478A96642862 /* MaterialCommunityIcons.ttf */,
-				E6C3D6C56C9949C2BF618321 /* MaterialIcons.ttf */,
-				9A191BD5C3AD4DB7ADFAABD3 /* Octicons.ttf */,
-				43B80913ADE240A3AB2FEC23 /* SimpleLineIcons.ttf */,
-				5ED51CB1D6C648B794F77236 /* Zocial.ttf */,
+				4FE8C5F983750AC93186195E /* Pods-GuessNumber.debug.xcconfig */,
+				B96CDD47AD40049E3F765A1A /* Pods-GuessNumber.release.xcconfig */,
+				615BD9142779E6883DAFA2A7 /* Pods-GuessNumber-GuessNumberTests.debug.xcconfig */,
+				AA372520A594A7985FEFAAAB /* Pods-GuessNumber-GuessNumberTests.release.xcconfig */,
 			);
-			name = Resources;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -200,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GuessNumberTests" */;
 			buildPhases = (
+				ABC6EFB98BC91AC8A7925EEB /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				810061429960E569FB51FFEA /* [CP] Embed Pods Frameworks */,
+				46CD142FFCEBD2EDA1D2CE0E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,11 +198,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GuessNumber" */;
 			buildPhases = (
+				341F35850468A78B97881D38 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				8DDF63FE9CA8C2C6AFE9CE50 /* [CP] Embed Pods Frameworks */,
+				37CD5362726B8850756B296B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,22 +270,6 @@
 				704A4FFAE80A48489668193F /* NotoSans-BoldItalic.ttf in Resources */,
 				DB9D724FDA2A44F1B631CD34 /* NotoSans-Italic.ttf in Resources */,
 				C6068259CE714C32B5BD3A00 /* NotoSans-Regular.ttf in Resources */,
-				9A07D028B98C4FC490CAF47D /* AntDesign.ttf in Resources */,
-				D65F0876917D430EB9E4EEDA /* Entypo.ttf in Resources */,
-				E772E180D33B45E8855CAC95 /* EvilIcons.ttf in Resources */,
-				5CE66B5DDCFF4FE8B6D5FA85 /* Feather.ttf in Resources */,
-				DB445DF7986645F1967C033A /* FontAwesome.ttf in Resources */,
-				6FA500296CE44E12A841FCEB /* FontAwesome5_Brands.ttf in Resources */,
-				A00885371F754AC6851BD088 /* FontAwesome5_Regular.ttf in Resources */,
-				5803274EB7494BC18A6EA1E9 /* FontAwesome5_Solid.ttf in Resources */,
-				CFB66BC871764D6C81515EE4 /* Fontisto.ttf in Resources */,
-				A720342A7AF64239BE0852C9 /* Foundation.ttf in Resources */,
-				6922E270712B412CB16699BE /* Ionicons.ttf in Resources */,
-				94ED5817CDD74CD1B273D2F6 /* MaterialCommunityIcons.ttf in Resources */,
-				4E1C87D06C7D42D2A51E0241 /* MaterialIcons.ttf in Resources */,
-				F001F0A063CE4F31AA2F4F33 /* Octicons.ttf in Resources */,
-				8FC22585C3EB40A898009C97 /* SimpleLineIcons.ttf in Resources */,
-				62E5002AB41C44609C47F469 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +289,118 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		341F35850468A78B97881D38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuessNumber-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37CD5362726B8850756B296B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GuessNumber/Pods-GuessNumber-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GuessNumber/Pods-GuessNumber-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GuessNumber/Pods-GuessNumber-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46CD142FFCEBD2EDA1D2CE0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GuessNumber-GuessNumberTests/Pods-GuessNumber-GuessNumberTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GuessNumber-GuessNumberTests/Pods-GuessNumber-GuessNumberTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GuessNumber-GuessNumberTests/Pods-GuessNumber-GuessNumberTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		810061429960E569FB51FFEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GuessNumber-GuessNumberTests/Pods-GuessNumber-GuessNumberTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GuessNumber-GuessNumberTests/Pods-GuessNumber-GuessNumberTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GuessNumber-GuessNumberTests/Pods-GuessNumber-GuessNumberTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DDF63FE9CA8C2C6AFE9CE50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GuessNumber/Pods-GuessNumber-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GuessNumber/Pods-GuessNumber-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GuessNumber/Pods-GuessNumber-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABC6EFB98BC91AC8A7925EEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuessNumber-GuessNumberTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -375,6 +454,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 615BD9142779E6883DAFA2A7 /* Pods-GuessNumber-GuessNumberTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -401,6 +481,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA372520A594A7985FEFAAAB /* Pods-GuessNumber-GuessNumberTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -424,6 +505,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE8C5F983750AC93186195E /* Pods-GuessNumber.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -449,6 +531,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96CDD47AD40049E3F765A1A /* Pods-GuessNumber.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -503,6 +586,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -568,6 +652,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

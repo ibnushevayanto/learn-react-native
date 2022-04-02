@@ -1,54 +1,48 @@
 import { useState } from "react";
-import {
-  Text,
-  View,
-  Button,
-  TextInput,
-  StyleSheet,
-  ScrollView,
-} from "react-native";
+import { View, StyleSheet, Button } from "react-native";
+import GoalItem from "./components/GoalItem";
+import GoalInput from "./components/GoalInput";
+import ExpoStatusBar from "expo-status-bar/build/ExpoStatusBar";
 
 export default function App() {
-  const [GoalsInput, setGoalsInput] = useState("");
   const [CourseGoals, setCourseGoals] = useState([]);
+  const [IsModalVisible, setIsModalVisible] = useState(false);
 
-  const goalsInputHandler = (value) => {
-    setGoalsInput(value);
+  const addItemCourseGoalHandler = (value) => {
+    setCourseGoals((prevState) => prevState.concat(value));
   };
 
-  const addGoalHandler = () => {
-    setCourseGoals((prevState) => prevState.concat(GoalsInput));
+  const deleteItemCourseGoalHandler = (indexCourse) => {
+    setCourseGoals((prevState) =>
+      prevState.filter((res, index) => index !== indexCourse)
+    );
+  };
+
+  const toggleModal = () => {
+    setIsModalVisible((prevState) => !prevState);
   };
 
   return (
-    <View style={styles.appContainer}>
-      <View style={styles.formContainer}>
-        <TextInput
-          style={styles.textInput}
-          onChangeText={goalsInputHandler}
-          placeholder="Your course goal"
+    <>
+    <ExpoStatusBar style="light" />
+      <View style={styles.appContainer}>
+        <Button title="Add New Goal" color="#a065ec" onPress={toggleModal} />
+        <GoalInput
+          toggleModal={toggleModal}
+          IsModalVisible={IsModalVisible}
+          addItemCourseGoalHandler={addItemCourseGoalHandler}
         />
-        <Button title="Add Goal" onPress={addGoalHandler} />
+        <GoalItem
+          CourseGoals={CourseGoals}
+          deleteItemCourseGoalHandler={deleteItemCourseGoalHandler}
+        />
       </View>
-      <View style={styles.goalsContainer}>
-        <ScrollView>
-          {CourseGoals.map((res, index) => (
-            /**
-             * ! Harus dibungkus dengan komponen view, agar support StyleSheet borderRadius
-             */
-            <View key={index} style={styles.goalItem}>
-              <Text style={styles.whiteText}>{res}</Text>
-            </View>
-          ))}
-        </ScrollView>
-      </View>
-    </View>
+    </>
   );
 }
 
 /**
  * ! Untuk mengaktifkan stylesheet flex, parent dari komponen harus memiliki propert flex juga
- * ! Contoh, liat appContainer, goalsContainers, formContainer
  */
 
 const styles = StyleSheet.create({
@@ -56,34 +50,6 @@ const styles = StyleSheet.create({
     paddingTop: 48,
     flex: 1,
     paddingHorizontal: 16,
-  },
-  formContainer: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    flex: 1,
-    borderBottomWidth: 1,
-    marginBottom: 24,
-    paddingBottom: 24,
-    borderColor: "#ccc",
-  },
-  textInput: {
-    borderWidth: 1,
-    borderColor: "#ccc",
-    flex: 1,
-    padding: 8,
-    marginRight: 8,
-  },
-  goalsContainer: {
-    flex: 4,
-  },
-  goalItem: {
-    margin: 8,
-    padding: 8,
-    borderRadius: 6,
-    backgroundColor: "#5e0acc",
-  },
-  whiteText: {
-    color: "white",
+    backgroundColor: "#1e085a",
   },
 });

@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
   title: {
-    fontFamily: 'NotoSans-Rgular',
+    fontFamily: 'NotoSans-Regular',
     fontSize: 18,
     fontWeight: '600',
     color: '#40414f',
