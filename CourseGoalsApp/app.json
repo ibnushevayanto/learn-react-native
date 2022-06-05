@@ -1,11 +1,22 @@
 {
   "expo": {
-    "name": "CourseGoalsApp",
+    "name": "Course Goals",
     "slug": "CourseGoalsApp",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "orientation": "potrait",
+    "assetBundlePatterns": ["**/*"],
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "versionCode": 1
+    }
   },
   "name": "CourseGoalsApp"
 }
