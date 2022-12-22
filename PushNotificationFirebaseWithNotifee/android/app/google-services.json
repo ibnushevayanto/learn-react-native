@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "424637072269",
+    "project_id": "riset-push-notification",
+    "storage_bucket": "riset-push-notification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424637072269:android:c17df533725857f35b33c4",
+        "android_client_info": {
+          "package_name": "com.rnrisetpushnotif"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424637072269-peg4qkrqf6rb2j5it9i15v56h3qn8c1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVSjhdYE7hPX8LJ8rMEc90kaX86DJwqiA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424637072269-peg4qkrqf6rb2j5it9i15v56h3qn8c1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
