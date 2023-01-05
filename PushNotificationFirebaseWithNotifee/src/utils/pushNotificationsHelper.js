@@ -4,7 +4,6 @@ import notifee from '@notifee/react-native';
 
 export async function getFCMToken() {
   let fcmToken = await AsyncStorage.getItem('fcm_token');
-  console.log(fcmToken, 'fcmToken');
 
   if (!fcmToken) {
     try {
@@ -24,7 +23,12 @@ export async function getFCMToken() {
 }
 
 export async function requestUserPermission() {
-  const authStatus = await messaging().requestPermission();
+  const authStatus = await messaging().requestPermission({
+    provisional: true,
+  });
+  // Request permissions (required for iOS)
+  await notifee.requestPermission();
+
   const enabled =
     authStatus === messaging.AuthorizationStatus.AUTHORIZED ||
     authStatus === messaging.AuthorizationStatus.PROVISIONAL;
@@ -39,15 +43,16 @@ export async function requestUserPermission() {
 }
 
 export async function createLocalNotification(title, body) {
-  // Request permissions (required for iOS)
-  await notifee.requestPermission();
-
   // Display a notification
   await notifee.displayNotification({
     title,
     body,
     android: {
-      channelId: 'default',
+      channelId: 'rn-test-notification',
+      sound: 'default',
+    },
+    ios: {
+      sound: 'default',
     },
   });
 }
@@ -73,7 +78,6 @@ export function NotificationListener() {
     });
 
   messaging().onMessage(async remoteMessage => {
-    console.log('A new FCM message arrived!', JSON.stringify(remoteMessage));
     createLocalNotification(
       remoteMessage.notification.title,
       remoteMessage.notification.body,

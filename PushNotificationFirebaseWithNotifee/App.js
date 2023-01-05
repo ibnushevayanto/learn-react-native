@@ -15,14 +15,13 @@ export default function () {
   useEffect(() => {
     async function firstLoad() {
       // Create a channel (required for Android)
-      const channelid = await notifee.createChannel({
-        id: 'default',
-        name: 'Default Channel',
+      await notifee.createChannel({
+        id: 'rn-test-notification',
+        name: 'TestNotificationApp',
         importance: AndroidImportance.HIGH,
       });
 
       const initialToken = await requestUserPermission();
-      console.log(channelid, 'channelid');
       if (initialToken) {
         settoken(initialToken);
       }
@@ -44,7 +43,9 @@ export default function () {
 
   return (
     <View style={styles.mainScreen}>
-      <Text selectable>{token || '-'}</Text>
+      <Text selectable style={{color: 'black'}}>
+        {token || '-'}
+      </Text>
       {/* <TextInput selectable>{token || '-'}</TextInput> */}
       <Button
         title="Send Notification"
@@ -62,5 +63,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 16,
+    backgroundColor: 'white',
   },
 });
