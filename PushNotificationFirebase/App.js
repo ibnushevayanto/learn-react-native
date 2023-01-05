@@ -1,26 +1,58 @@
 import React, {useEffect, useState} from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Text, StyleSheet, TextInput, Button} from 'react-native';
 import {
   requestUserPermission,
   NotificationListener,
-} from './utils/notificationServices';
+  createLocalNotification,
+} from './src/utils/pushNotificationsHelper';
+import notifee, {AndroidImportance, EventType} from '@notifee/react-native';
 
 export default function () {
-  const [token, setToken] = useState(null);
+  const [token, settoken] = useState(null);
+
+  NotificationListener();
 
   useEffect(() => {
-    const firstLoad = async () => {
+    async function firstLoad() {
+      // Create a channel (required for Android)
+      await notifee.createChannel({
+        id: 'rn-test-notification',
+        name: 'TestNotificationApp',
+        importance: AndroidImportance.HIGH,
+      });
+
       const initialToken = await requestUserPermission();
-      console.log(initialToken);
-      setToken(initialToken);
-    };
+      if (initialToken) {
+        settoken(initialToken);
+      }
+    }
+
     firstLoad();
-    NotificationListener();
+
+    return notifee.onForegroundEvent(({type, detail}) => {
+      switch (type) {
+        case EventType.DISMISSED:
+          console.log('user dismissed notification', detail.notification);
+          break;
+        case EventType.PRESS:
+          console.log('User pressed notification', detail.notification);
+          break;
+      }
+    });
   }, []);
 
   return (
     <View style={styles.mainScreen}>
-      <Text selectable>{token || '-'}</Text>
+      <Text selectable style={{color: 'black'}}>
+        {token || '-'}
+      </Text>
+      {/* <TextInput selectable>{token || '-'}</TextInput> */}
+      <Button
+        title="Send Notification"
+        onPress={() =>
+          createLocalNotification('local noti title', 'local noti body')
+        }
+      />
     </View>
   );
 }
@@ -31,5 +63,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 16,
+    backgroundColor: 'white',
   },
 });

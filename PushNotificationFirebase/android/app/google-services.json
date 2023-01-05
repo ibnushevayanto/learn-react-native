@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "1060331740011",
-    "project_id": "belajar-b4492",
-    "storage_bucket": "belajar-b4492.appspot.com"
+    "project_number": "424637072269",
+    "project_id": "riset-push-notification",
+    "storage_bucket": "riset-push-notification.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1060331740011:android:9484ee994f6a866109ca2e",
+        "mobilesdk_app_id": "1:424637072269:android:c17df533725857f35b33c4",
         "android_client_info": {
-          "package_name": "com.pushnotificationfirebase"
+          "package_name": "com.rnrisetpushnotif"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1060331740011-d3nutsr0s1dlm46iilvq6lev99ngg8rc.apps.googleusercontent.com",
+          "client_id": "424637072269-peg4qkrqf6rb2j5it9i15v56h3qn8c1u.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCRLbUV2xzng__3BwfZm3REaiK99nRemvw"
+          "current_key": "AIzaSyDVSjhdYE7hPX8LJ8rMEc90kaX86DJwqiA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1060331740011-d3nutsr0s1dlm46iilvq6lev99ngg8rc.apps.googleusercontent.com",
+              "client_id": "424637072269-peg4qkrqf6rb2j5it9i15v56h3qn8c1u.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
